@@ -33,7 +33,7 @@ You may have to install libncurses first.
 
 To install ISE go to
 https://www.xilinx.com/downloadNav/vivado-design-tools/archive-ise.html
-Download ISE 14.7 (not "ISE 14.7 Windows 10). It comes in four large
+Download ISE 14.7 (not "ISE 14.7 Windows 10"). It comes in four large
 files. Put the four files into a scratch directory. Untar part 1, run
 "sudo ./xsetup", and the installer will walk you through the procedure.
 Select the WebPack installation. Install the tools into the default
@@ -52,8 +52,8 @@ several verbatim mirrors of this repository on GitHub, for example
 You will need libusb-dev installed: "sudo apt install libusb-dev".
 Depending on where you cloned it from, the working directory is called
 usb-driver (original), or xilinx-usb-driver (mirrors). Go into that
-directory and type "make". There may be a couple innocuous warnings. I
-copied libusb-driver.so to my ~/bin directory.
+directory and type "make". There may be a couple innocuous warnings.
+When it is finished copy libusb-driver.so to your ~/bin directory.
 
 I use the following scripts to start ise and impact. The first is called
 "ise" and is located in my bin directory:
